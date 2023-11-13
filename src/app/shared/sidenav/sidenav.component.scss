@@ -1,0 +1,24 @@
+h2 {
+    font-size: 45px;
+    padding-bottom: 35px;
+    padding-left: 40px;
+}
+
+.container {
+    .item {
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        padding-bottom: 35px;
+        padding-left: 40px;
+
+        svg {
+            font-size: 26px;
+            padding-right: 20px;
+        }
+
+        p {
+            font-size: 18px;
+        }
+    }
+}

@@ -1,0 +1,80 @@
+.heading {
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+
+    p {
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        padding-right: 5px;
+
+        svg {
+            padding-left: 5px;
+        }
+    }
+}
+
+.category-items {
+    display: flex;
+    gap: 12px;
+    margin-bottom: 45px;
+    overflow-x: scroll;
+
+    .item-box {
+        .item-icon {
+            height: 45px;
+            aspect-ratio: 1/1;
+            background-color: #e4e6f3;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        p {
+            padding-top: 7px;
+            font-size: 14px;
+        }
+    }
+}
+
+.celebrities {
+    display: flex;
+    gap: 12px;
+    overflow-x: scroll;
+
+    .celebrity-box {
+        height: 45px;
+        display: flex;
+        align-items: center;
+        background-color: #e4e6f3;
+        border-radius: 25px;
+
+        .img {
+            border-top-left-radius: inherit;
+            border-bottom-left-radius: inherit;
+            height: inherit;
+            aspect-ratio: 1/1;
+
+            img {
+                border-top-left-radius: inherit;
+                border-bottom-left-radius: inherit;
+                height: inherit;
+                width: inherit;
+                object-fit: cover;
+                border-radius: 50%;
+            }
+        }
+
+        p {
+            font-size: 14px;
+            padding: 0 15px 0 5px;
+        }
+    }
+}
+
+
+::-webkit-scrollbar {
+    width: 0px;
+}

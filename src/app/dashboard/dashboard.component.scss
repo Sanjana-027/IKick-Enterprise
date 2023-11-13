@@ -1,0 +1,67 @@
+.main-container {
+    display: flex;
+    padding-top: 70px;
+
+    .side-nav {
+        width: 20%;
+    }
+
+    .dashboard-content {
+        width: 55%;
+        padding: 0 30px;
+
+        .search-box {
+            position: relative;
+
+            svg {
+                position: absolute;
+                top: 12px;
+                left: 17px;
+            }
+
+            input {
+                width: 100%;
+                border: none;
+                outline: none;
+                height: 40px;
+                border-radius: 10px;
+                box-shadow: 2px 2px 6px #97afff, -2px 2px 6px #97afff;
+                font-size: 16px;
+                padding-left: 45px;
+            }
+        }
+
+        .listing {
+            .heading {
+                padding: 20px 0;
+                display: flex;
+                justify-content: space-between;
+
+                p {
+                    cursor: pointer;
+                    display: flex;
+                    align-items: center;
+                    padding-right: 5px;
+
+                    svg {
+                        padding-left: 5px;
+                    }
+                }
+            }
+
+            .cards {
+                display: flex;
+                flex-wrap: wrap;
+                gap: 20px;
+            }
+        }
+    }
+
+    .side-panel {
+        width: 25%;
+    }
+}
+
+::-webkit-scrollbar {
+    width: 0px;
+}

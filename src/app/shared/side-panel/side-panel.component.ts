@@ -6,5 +6,14 @@ import { Component } from '@angular/core';
   styleUrls: ['./side-panel.component.scss']
 })
 export class SidePanelComponent {
+  categoriesToggle: boolean = false;
+  celebritiesToggle: boolean = false;
 
+  expandCategories() {
+    this.categoriesToggle = !this.categoriesToggle;
+  }
+
+  expandCelebrities() {
+    this.celebritiesToggle = !this.celebritiesToggle;
+  }
 }

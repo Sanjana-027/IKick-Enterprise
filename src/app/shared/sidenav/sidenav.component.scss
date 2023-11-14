@@ -7,18 +7,39 @@ h2 {
 .container {
     .item {
         cursor: pointer;
-        display: flex;
+        /* display: flex; */
         align-items: center;
-        padding-bottom: 35px;
-        padding-left: 40px;
+        padding-bottom: 56px;
+        /* padding-left: 40px; */
+        transition: all 0.8s;
+        position: relative;
+
 
         svg {
             font-size: 26px;
             padding-right: 20px;
+            position: absolute;
+            left: 30px;
+            transition: all 0.5s;
         }
 
         p {
             font-size: 18px;
+            position: absolute;
+            left: 80px;
+        }
+
+        &:hover {
+            svg {
+                fill: #7761ff;
+                left: -10px;
+                background-color: #7761ff;
+                border-radius: 50%;
+            }
+
+            p {
+                color: #7761ff;
+            }
         }
     }
 }

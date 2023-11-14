@@ -14,7 +14,7 @@
         width: 57%;
         padding: 70px 40px 30px 50px;
 
-        .header {
+        .mobile-header {
             display: none;
         }
 
@@ -25,6 +25,7 @@
                 position: absolute;
                 top: 12px;
                 left: 17px;
+                fill: gray;
             }
 
             input {
@@ -54,10 +55,13 @@
                     display: flex;
                     align-items: center;
                     padding-right: 5px;
+                    font-size: 12px;
+                    color: grey;
 
                     svg {
                         padding-left: 5px;
                         font-size: 10px;
+                        fill: grey;
                     }
                 }
             }
@@ -86,6 +90,25 @@
     width: 0px;
 }
 
+@media screen and (max-width: 990px) {
+    .main-container {
+        .side-nav {
+            padding-top: 70px;
+            padding-bottom: 30px;
+            width: 24%;
+            border-right: 1px solid #dee0e5;
+        }
+        .dashboard-content {
+            width: 55%;
+            padding: 70px 40px 30px 20px;
+        }
+        .desktop-side-panel {
+            width: 21%;
+            padding-right: 10px;
+        }
+    }
+}
+
 @media screen and (max-width: 768px) {
     .main-container {
         // padding-top: 0;
@@ -97,10 +120,9 @@
 
         .dashboard-content {
             width: 100%;
-            padding-top: 0;
-            padding-bottom: 80px;
+            padding: 0 20px 80px 20px;
 
-            .header {
+            .mobile-header {
                 display: flex;
                 justify-content: space-between;
                 padding: 20px 0;
@@ -111,7 +133,7 @@
 
                 .icons {
                     svg {
-                        padding-left: 15px;
+                        padding-left: 25px;
                         font-size: 20px;
                     }
                 }
@@ -137,22 +159,8 @@
         }
 
         .mobile-navigation {
+            display: block;
             position: fixed;
-            bottom: 0;
-            display: flex;
-            justify-content: space-around;
-            background-color: #ffffff;
-            width: 100%;
-            padding: 10px 0;
-            box-shadow: 0px -2px 6px #97afff;
-
-            .nav-item {
-                text-align: center;
-
-                p {
-                    font-size: 14px;
-                }
-            }
         }
     }
 }

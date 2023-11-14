@@ -1,0 +1,337 @@
+{
+    "active": [
+      {
+        "name": "Product name 1",
+        "likes": 45,
+        "views": 454,
+        "bids": 30,
+        "bidValue": 875.00,
+        "favourite": true,
+        "bookmarked": false,
+        "inStock": true,
+        "deadline": "Nov 30, 2023 23:59:59"
+      },
+      {
+        "name": "Product name 2",
+        "likes": 12,
+        "views": 200,
+        "bids": 10,
+        "bidValue": 450.50,
+        "favourite": false,
+        "bookmarked": false,
+        "inStock": true,
+        "deadline": "Dec 10, 2023 20:45:30"
+      },
+      {
+        "name": "Product name 3",
+        "likes": 78,
+        "views": 876,
+        "bids": 50,
+        "bidValue": 1200.75,
+        "favourite": false,
+        "bookmarked": true,
+        "inStock": true,
+        "deadline": "Dec 5, 2023 15:20:15"
+      },
+      {
+        "name": "Product name 4",
+        "likes": 30,
+        "views": 300,
+        "bids": 25,
+        "bidValue": 600.25,
+        "favourite": true,
+        "bookmarked": true,
+        "inStock": true,
+        "deadline": "Nov 13, 2023 12:00:00"
+      },
+      {
+        "name": "Product name 5",
+        "likes": 90,
+        "views": 1200,
+        "bids": 15,
+        "bidValue": 975.50,
+        "favourite": false,
+        "bookmarked": false,
+        "inStock": true,
+        "deadline": "Dec 8, 2023 18:30:45"
+      },
+      {
+        "name": "Product name 6",
+        "likes": 15,
+        "views": 150,
+        "bids": 5,
+        "bidValue": 300.75,
+        "favourite": false,
+        "bookmarked": true,
+        "inStock": true,
+        "deadline": "Oct 20, 2023 10:15:00"
+      },
+      {
+        "name": "Product name 7",
+        "likes": 60,
+        "views": 600,
+        "bids": 20,
+        "bidValue": 750.00,
+        "favourite": false,
+        "bookmarked": false,
+        "inStock": true,
+        "deadline": "Dec 12, 2023 23:59:59"
+      },
+      {
+        "name": "Product name 8",
+        "likes": 25,
+        "views": 250,
+        "bids": 8,
+        "bidValue": 525.25,
+        "favourite": true,
+        "bookmarked": false,
+        "inStock": true,
+        "deadline": "Dec 18, 2023 15:45:30"
+      },
+      {
+        "name": "Product name 9",
+        "likes": 70,
+        "views": 800,
+        "bids": 40,
+        "bidValue": 1050.50,
+        "favourite": true,
+        "bookmarked": true,
+        "inStock": true,
+        "deadline": "Dec 14, 2023 08:30:15"
+      },
+      {
+        "name": "Product name 10",
+        "likes": 18,
+        "views": 180,
+        "bids": 12,
+        "bidValue": 375.75,
+        "favourite": false,
+        "bookmarked": true,
+        "inStock": true,
+        "deadline": "Dec 25, 2023 20:00:00"
+      },
+      {
+        "name": "Product name 11",
+        "likes": 50,
+        "views": 500,
+        "bids": 35,
+        "bidValue": 900.25,
+        "favourite": false,
+        "bookmarked": false,
+        "inStock": true,
+        "deadline": "Dec 22, 2023 12:30:45"
+      },
+      {
+        "name": "Product name 12",
+        "likes": 22,
+        "views": 220,
+        "bids": 18,
+        "bidValue": 675.50,
+        "favourite": true,
+        "bookmarked": false,
+        "inStock": true,
+        "deadline": "Dec 17, 2023 06:15:00"
+      },
+      {
+        "name": "Product name 13",
+        "likes": 80,
+        "views": 1000,
+        "bids": 28,
+        "bidValue": 1125.75,
+        "favourite": false,
+        "bookmarked": true,
+        "inStock": true,
+        "deadline": "Dec 19, 2023 09:45:30"
+      },
+      {
+        "name": "Product name 14",
+        "likes": 35,
+        "views": 350,
+        "bids": 45,
+        "bidValue": 487.00,
+        "favourite": false,
+        "bookmarked": true,
+        "inStock": true,
+        "deadline": "Dec 16, 2023 18:00:15"
+      },
+      {
+        "name": "Product name 15",
+        "likes": 65,
+        "views": 650,
+        "bids": 23,
+        "bidValue": 825.25,
+        "favourite": false,
+        "bookmarked": false,
+        "inStock": true,
+        "deadline": "Dec 24, 2023 23:59:59"
+      }
+    ],
+    "upcoming": [
+      {
+        "name": "Product name 16",
+        "likes": 42,
+        "views": 420,
+        "bids": 22,
+        "bidValue": 550.00,
+        "favourite": false,
+        "bookmarked": false,
+        "inStock": false,
+        "deadline": "Jan 5, 2024 15:30:00"
+      },
+      {
+        "name": "Product name 17",
+        "likes": 28,
+        "views": 280,
+        "bids": 14,
+        "bidValue": 325.50,
+        "favourite": false,
+        "bookmarked": true,
+        "inStock": false,
+        "deadline": "Jan 8, 2024 10:10:45"
+      },
+      {
+        "name": "Product name 18",
+        "likes": 75,
+        "views": 750,
+        "bids": 33,
+        "bidValue": 800.75,
+        "favourite": true,
+        "bookmarked": true,
+        "inStock": false,
+        "deadline": "Jan 15, 2024 09:00:00"
+      },
+      {
+        "name": "Product name 19",
+        "likes": 38,
+        "views": 380,
+        "bids": 17,
+        "bidValue": 475.25,
+        "favourite": false,
+        "bookmarked": false,
+        "inStock": false,
+        "deadline": "Jan 12, 2024 16:30:45"
+      },
+      {
+        "name": "Product name 20",
+        "likes": 85,
+        "views": 850,
+        "bids": 27,
+        "bidValue": 975.50,
+        "favourite": false,
+        "bookmarked": true,
+        "inStock": false,
+        "deadline": "Jan 18, 2024 22:15:00"
+      },
+      {
+        "name": "Product name 21",
+        "likes": 20,
+        "views": 200,
+        "bids": 9,
+        "bidValue": 400.75,
+        "favourite": true,
+        "bookmarked": false,
+        "inStock": false,
+        "deadline": "Jan 10, 2024 18:45:30"
+      },
+      {
+        "name": "Product name 22",
+        "likes": 55,
+        "views": 550,
+        "bids": 42,
+        "bidValue": 725.00,
+        "favourite": true,
+        "bookmarked": true,
+        "inStock": false,
+        "deadline": "Jan 20, 2024 14:30:15"
+      },
+      {
+        "name": "Product name 23",
+        "likes": 23,
+        "views": 230,
+        "bids": 19,
+        "bidValue": 600.25,
+        "favourite": false,
+        "bookmarked": false,
+        "inStock": false,
+        "deadline": "Jan 14, 2024 07:00:00"
+      },
+      {
+        "name": "Product name 24",
+        "likes": 68,
+        "views": 680,
+        "bids": 37,
+        "bidValue": 925.50,
+        "favourite": false,
+        "bookmarked": true,
+        "inStock": false,
+        "deadline": "Jan 22, 2024 12:30:45"
+      },
+      {
+        "name": "Product name 25",
+        "likes": 15,
+        "views": 150,
+        "bids": 12,
+        "bidValue": 375.75,
+        "favourite": false,
+        "bookmarked": false,
+        "inStock": false,
+        "deadline": "Jan 25, 2024 20:00:00"
+      },
+      {
+        "name": "Product name 26",
+        "likes": 48,
+        "views": 480,
+        "bids": 25,
+        "bidValue": 850.25,
+        "favourite": false,
+        "bookmarked": true,
+        "inStock": false,
+        "deadline": "Jan 28, 2024 15:45:30"
+      },
+      {
+        "name": "Product name 27",
+        "likes": 32,
+        "views": 320,
+        "bids": 15,
+        "bidValue": 525.50,
+        "favourite": false,
+        "bookmarked": false,
+        "inStock": false,
+        "deadline": "Jan 16, 2024 18:00:15"
+      },
+      {
+        "name": "Product name 28",
+        "likes": 78,
+        "views": 780,
+        "bids": 28,
+        "bidValue": 1100.75,
+        "favourite": true,
+        "bookmarked": true,
+        "inStock": false,
+        "deadline": "Jan 19, 2024 09:45:30"
+      },
+      {
+        "name": "Product name 29",
+        "likes": 36,
+        "views": 360,
+        "bids": 50,
+        "bidValue": 487.00,
+        "favourite": false,
+        "bookmarked": false,
+        "inStock": false,
+        "deadline": "Jan 16, 2024 18:00:15"
+      },
+      {
+        "name": "Product name 30",
+        "likes": 62,
+        "views": 620,
+        "bids": 23,
+        "bidValue": 825.25,
+        "favourite": true,
+        "bookmarked": true,
+        "inStock": false,
+        "deadline": "Jan 24, 2024 23:59:59"
+      }
+    ]
+  }
+  

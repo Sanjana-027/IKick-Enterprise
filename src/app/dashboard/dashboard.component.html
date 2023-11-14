@@ -1,8 +1,12 @@
 <div class="main-container">
+    <!-- [START] Left side nav for desktop/tablet only -->
     <div class="side-nav">
         <app-sidenav></app-sidenav>
     </div>
+    <!-- [END] Left side nav for desktop/tablet only -->
     <div class="dashboard-content">
+        
+        <!-- [START] Header for mobile only -->
         <div class="mobile-header">
             <h3>iKick</h3>
             <div class="icons">
@@ -20,6 +24,8 @@
                 </svg>
             </div>
         </div>
+        <!-- [END] Header for mobile only -->
+
         <div class="search-box">
             <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512">
                 <path
@@ -27,9 +33,11 @@
             </svg>
             <input type="text" placeholder="Search here" [(ngModel)]="searchProduct">
         </div>
+        <!-- [START] Side Panel for mobile only -->
         <div class="mobile-side-panel">
             <app-side-panel></app-side-panel>
         </div>
+        <!-- [END] Side Panel for mobile only -->
         <div class="listing">
             <div class="heading">
                 <h3>Active Listing</h3>
@@ -84,11 +92,17 @@
             </div>
         </div>
     </div>
+
+    <!-- [START] Side Panel for desktop/tablet only -->
     <div class="desktop-side-panel">
         <app-side-panel></app-side-panel>
     </div>
+    <!-- [END] Side Panel for desktop/tablet only -->
+
+    <!-- [START] Nav for mobile only -->
     <div class="mobile-navigation">
         <app-mobile-navigation></app-mobile-navigation>
     </div>
+    <!-- [END] Nav for mobile only -->
 
 </div>

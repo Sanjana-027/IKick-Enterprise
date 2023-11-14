@@ -27,8 +27,6 @@ export class DashboardComponent implements OnInit {
 
       this.expandActiveProducts();
       this.expandUpcomingProducts();
-      // console.log(this.activeProducts);
-      // console.log(this.upcomingProducts);
     })
   }
 
